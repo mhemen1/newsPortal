@@ -1,4 +1,4 @@
-# pwa
+# PWA 
 Pwa projekt
 
-LIVE VERZIJA: http://pwa-projekt.rf.gd/
+LIVE VERZIJA: http://pwa-projekt.rf.gd/ Radi
