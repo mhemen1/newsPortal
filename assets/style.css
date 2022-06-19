@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css?family=Kavoon');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin:0px;
+}
+
+body{ 
+margin:0 auto;
+background-color: #f0f2f6;
+padding:0;
+max-width: 100%;
+/*overflow-x: hidden;*/
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    position:sticky;
+    position: -webkit-sticky; /* Safari */
+    top:0;
+    width:100%;
+    background-color: white;
+    text-align: center;
+    margin-bottom: -0px;
+    padding-bottom:5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+
+}
+header hr {
+    border-top:7px solid rgb(57, 112, 188);
+    max-width: 100%;
+    
+}
+.wrapper {
+    max-width: 1200px;
+    width: 90%;
+    margin:0 auto;
+    background-color: white;
+   
+
+}
+main {
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding:10px 10px 90px 10px;
+    
+}
+
+header nav ul  {
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 0px;    
+
+}
+header nav ul li a {
+    float:left;
+    display:block;
+    padding:12px 50px 12px 0px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    
+    
+
+}
+main section a {
+    text-decoration: none;
+    color:black;
+    transition: all 0.2s ease-in-out;
+    width: 32%;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+main section a:hover{
+    box-shadow: 0 5px 15px rgba(33, 86, 219, 0.4);
+}
+nav ul a:hover{
+    color:rgb(81, 160, 221);
+}
+
+h1 {
+    margin:auto;
+    font-family:'Kavoon';
+    text-align: center;
+    font-size: 62px;
+}
+.flex-container {
+    display:flex;
+    flex-flow: row wrap;
+    padding:50px 10px 50px 10px;
+    width: 100%;
+}
+.flex-container2 {
+    flex-flow:column nowrap;
+    align-items: center; 
+}
+#ucp {
+    align-items: flex-start;
+}
+.ucpp {
+    width: 100%;
+}
+.gumb {
+    width: 100%;
+    font-size: 14px;
+}
+.gumb:link, .gumb:visited {
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(57, 112, 188);;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+  }
+  
+  .gumb:hover, .gumb:active {
+    background-color: rgb(57, 112, 188);;
+    color: white;
+   
+  }
+
+
+#admin form {
+    margin-bottom: 72px;
+    border-bottom: 5px solid peru;
+}
+.line {
+    width: 100%;
+    border-top: 3px solid rgb(44, 43, 43);
+    padding:50px 0px 25px 0px;
+}
+
+article {
+ display:flex;
+ flex-flow:column nowrap;
+ max-width: 100%;
+ align-items: flex-start;
+
+ 
+}
+.full {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 7px;
+    white-space: pre-wrap;
+}
+figcaption {
+    color:#45484bb1;
+    font-style: italic;
+
+}
+article h3.short {
+    padding:5px;
+}
+article > p {
+    padding:10px;
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 40px;
+    line-height: 150%;
+    white-space: pre-wrap;
+}
+article p.short{
+    overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 20px;
+  padding:5px;
+  text-indent: 0px;
+}
+article figure {
+    max-width:100%;
+    max-height: 100%;
+    min-width:100%;
+    min-height: auto;
+    overflow: hidden;
+}
+article figure.short{
+    max-width:100%;
+    max-height: 250px;
+    min-width:100%;
+    min-height: auto;
+    overflow: hidden;
+
+}
+
+article figure img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h2 {
+    margin-top:0;
+    display:block;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 33px;
+}
+.menu-icon{
+    display:none;
+
+}
+.menu {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 5px 0;
+  }
+
+footer {
+    position:fixed;
+    bottom: 0;
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    color:white;
+    background-color: rgb(58, 54, 54);
+    padding:20px 0px;
+}
+
+form {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+   
+}
+label {
+    font-weight: bold;
+    margin:7px 0px;
+}
+.valid {
+    border:1px solid green;
+}
+input.error, textarea.error, select.error{
+    border:1px dashed red;
+}
+label.error{
+    border:none;
+    color: #ff0000;
+    display:block;
+    margin: 4px 0px;
+}
+.politika {
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
+.sport {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    
+    
+}
+
+#footerWrapper {
+    background-color:  rgb(58, 54, 54);;
+    padding:10px 0px;
+}
+.footer-line{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+      align-content: space-around;
+      
+    }
+    article {
+       max-width: 100%;
+       width: 100%;
+
+
+    }
+    header nav ul li a {
+       width: 100%;
+       
+    }
+    main section a {
+        width: 100%;
+        margin-top: 20px; 
+    }
+    header {
+        position:relative;
+    }
+    article figure.short {
+        max-height: 350px;
+    }
+    form {
+        width: 100%;
+    }
+    #unoss {
+        width: 90%;
+    }
+}
