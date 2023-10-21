@@ -1,5 +1,5 @@
-# PWA 
-Pwa projekt
+# News portal
+News portal projekt
 
 LIVE VERZIJA: http://pwa-projekt.rf.gd/ 
 
