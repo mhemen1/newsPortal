@@ -1,8 +1,8 @@
 # News portal
-News portal projekt
+News portal project
 
-LIVE VERZIJA: http://pwa-projekt.rf.gd/ 
+LIVE VERSION: http://pwa-projekt.rf.gd/ 
 
-Prijava: admin: admin lozinka:admin123
+LOGIN: admin: admin password: admin123
 
-   korisnik: user lozinka: user123
+   user: user password: user123
