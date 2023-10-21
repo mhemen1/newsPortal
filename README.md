@@ -3,6 +3,8 @@ News portal project
 
 LIVE VERSION: http://pwa-projekt.rf.gd/ 
 
-LOGIN: admin: admin password: admin123
+LOGIN as admin:
+   admin  admin123
 
-   user: user password: user123
+user:
+user  user123
